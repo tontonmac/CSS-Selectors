@@ -1,7 +1,7 @@
 /* Structural Pseudo-classes------------------ */
 
 li:first-child {
-    background: #52bab3;
+    background: #717c7b;
     color: white;
 }
 
@@ -16,4 +16,15 @@ span:only-child {
 
 :empty {
     background: tomato;
+}
+
+/* :nth-child Pseudo-classes------------------ */
+
+/*
+ b = the first element we select 
+ a = the cycle of the elements to be selected
+*/
+li:nth-child(-2n + 9) {
+    background: #52bab3;
+    color: white;
 }
