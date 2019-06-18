@@ -21,6 +21,7 @@ span:only-child {
 /* :nth-child Pseudo-classes------------------ */
 
 /*
+ :nth-child(an + b)
  b = the first element we select 
  a = the cycle of the elements to be selected
 */
