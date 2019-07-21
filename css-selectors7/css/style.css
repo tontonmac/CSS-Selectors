@@ -29,7 +29,8 @@
   margin-right: 8px;
 }
 
-h1::before, h1::after {
+h1::before,
+h1::after {
   content: "";
   display: inline-block;
   width: 24px;
@@ -37,4 +38,16 @@ h1::before, h1::after {
   border-radius: 50%;
   background: coral;
   margin: 0 10px;
+}
+
+.d-loads a::after {
+  content: attr(title);
+  display: inline-block;
+  color: initial;
+  font-size: .65em;
+  margin-left: 5px;
+}
+
+.d-loads a {
+  border: solid 1px;
 }
